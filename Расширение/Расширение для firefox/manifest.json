@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Cookie Tracker",
+  "version": "1.0",
+  "permissions": [
+    "cookies",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "applications": {
+    "gecko": {
+      "id": "your-addon@example.com"
+    }
+  }
+}
